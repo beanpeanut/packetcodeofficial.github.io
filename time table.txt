@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>time table</title>
+<style>
+h1 {text-align: center;}
+</style>
+</head>
+
+<h1> CSC5215A TIME TABLE </h1>
+<table style="background-color:#ffffff;"border="1" cellspacing="3" align="center">
+<tr>
+ <td align="center">
+ <td><center>8:00-9:00</td></center>
+ <td><center>9:00-10:00</td></center>
+ <td><center>10:00-11:00</td></center>
+ <td><center>11:00-12:00</td></center>
+ <td><center>12:00-2:00</td></center>
+ <td><center>2:00-3:00</td></center>
+ <td><center>3:00-4:00</td></center>
+ <td><center>4:00-5:00</td></center>
+ <td><center>5:00-6:00</td></center>
+ <td><center>6:00-7:00</td></center>
+ <td><center>7:00-8:00</td></center>
+</tr>
+<tr>
+ <td align="center">MONDAY
+ <td colspan="2" align="center">
+ <td colspan="2" align="center" bgcolor= "salmon"><font color="black">
+<a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/ict.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/ict.html','ict','width=300,height=400')">ICT 450</a>
+ <td rowspan="5"align="center" bgcolor="Maroon"><font color ="white">L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>E<br>A<br>K
+ <td colspan=2" align="center">
+<td colspan="2" align="center" bgcolor="LightPink"><font color="black">  <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/MAT406.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/MAT406.html','MAT','width=300,height=400')">MAT 421</a>
+<td colspan="2" align="center"> 
+
+</tr>
+<tr>
+ <td align="center">TUESDAY
+ <td colspan="2" align="center" bgcolor="LightYellow"><font color="black"> 
+
+ <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC574.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC574.html','ict','width=300,height=400')">CSC 574</a>
+
+  <td colspan="2" align="center" bgcolor="Thistle"><font color="black"> 
+
+<a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/csc520.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/csc520.html','520','width=300,height=400')">CSC 520</a>
+
+  <td colspan=2" align="center">
+ <td colspan="2" align="center" bgcolor="salmon"><font color="black">
+
+ <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/ict.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/ict.html','ict','width=300,height=400')">ICT 450</a>
+
+ <td colspan=2" align="center">
+
+</tr>
+<tr>
+ <td align="center">WEDNESDAY
+ <td colspan="2" align="center"bgcolor="LightYellow"><font color="black">
+<a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC574.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC574.html','ict','width=300,height=400')">CSC 574</a>
+
+
+ <td colspan="2" align="center" bgcolor="LightGreen"><font color="black"> <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC404.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC404.html','404','width=300,height=400')">CSC 404</a>
+
+ <td colspan="2" align="center"bgcolor="Thistle"><font color="black"> <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/csc520.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/csc520.html','520','width=300,height=400')">CSC 520</a>
+ <td colspan=4" align="center">
+
+
+</tr>
+<tr>
+ <td align="center">THURSDAY
+ <td colspan="2" align="center" bgcolor="LightPink"><font color="black">  
+
+<a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/MAT406.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/MAT406.html','MAT','width=300,height=400')">MAT 421</a>
+
+ <td colspan=2" align="center">
+ <td colspan="2" align="center"bgcolor="PaleTurquoise"><font color="black">
+
+<a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/STA%20416.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/STA%20416.html','STA','width=300,height=400')">STA 416</a>
+
+ <td colspan="1" align="center">
+ <td colspan="3" align="center" bgcolor="RosyBrown"><font color="black">HPD 136A
+</tr>
+
+<tr>
+ <td align="center">FRIDAY
+ <td colspan="2" align="center"bgcolor="LightGreen"><font color="black"> <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC404.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC404.html','404','width=300,height=400')">CSC 404</a>
+
+ <td colspan="2" align="center" bgcolor="PaleTurquoise"><font color="black">
+<a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/STA%20416.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/STA%20416.html','STA','width=300,height=400')">STA 416</a>
+ <td colspan="6" align="center">
+
+</tr>
+
+</tr>
+</table><br>
+<center><a href="time table.pdf" download>
+   <button class="btn"><i class="fa fa-download"></i> Download</button></a></center>
+
+</body>
+</html>

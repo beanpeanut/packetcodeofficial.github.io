@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<title>resume</title>
+ 
+</style>
+</head>
+<body bgcolor="black">
+<center>
+<table border="5" size="90" align="center" bgcolor="cornsilk">
+>
+<tr>
+<td colspan=4>
+<center><h1><u>RESUME</u></h1></center>
+<b>Name:</b>NUR FARAH AFIQAH BINTI MOHD YUSOP<br>
+<b>Date of Birth:</b> 5 MAY 2003<br>
+<b>Father's Name:</b> MOHD YUSOP BIN UDIN<br>
+<b>Address:</b> NO 707,PARIT 3,BAN21/2, 45400, SEKINCHAN, SELANGOR.
+</td>
+<td><img src="me.png" height="200px" width="150px"/></td>
+</tr>
+<tr>
+<td colspan=5><h3>Educational History:</h3></td>
+</tr>
+<tr>
+<td><b>LEVEL</b></td>
+<td><b>NAME OF INSTITUTION</b></td>
+<td colspan=2><b>GRADE</b></td>
+<td><b>YEAR</b></td>
+</tr>
+<tr>
+<td>SPM</td>
+<td>SMKA KUALA SELANGOR</td>
+<td colspan=2>7A</td>
+<td>2020</td>
+
+</tr>
+<tr>
+<td>MATRIKULASI</td>
+<td>KEDAH MATRICULATION COLLEGE</td>
+<td colspan=2>3.70</td>
+<td>2021</td>
+
+</tr>
+<tr>
+<td>DIPLOMA (1ST SEM)</td>
+<td>UITM SHAH ALAM</td>
+<td colspan=2>3.50</td>
+<td>2022</td>
+</tr>
+
+<tr>
+<td colspan=5>
+<h3>Activities and involment:</h3>
+<ul>
+<li>PAL Buddies</li>
+<li>King's Scout Award</li>
+<li>Bendahari Majlis Perwakilan Pelajar </li>
+<li>Ahli Lembaga Koperasi</li>
+</ul>
+
+<h3>Experience:</h3>
+<ul>
+<li>Volunteer in Kejohanan MSSD Paralimpik Peringkat Negeri Selangor 2019.</li>
+<li>Volunteer in Mahrajan Mamanah Neger </li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td colspan=5>
+<h3>Skills:</h3>
+<p>Language</p>
+</td>
+</tr>
+
+<tr>
+<td>Malay</td>
+<td colspan=5>Native or bilingual proficiency</td>
+</tr>
+<tr>
+<td>English</td>
+<td colspan=5>Full professional proficiency</td>
+</tr>
+<tr>
+<td>Arabic</td>
+<td colspan=5>Limited working proficiency</td>
+</tr>
+
+<tr>
+<td colspan=5>
+<p>Computer:</p>
+<ul>
+<li>Microsoft Word.</li>
+<li>Microsoft Excel </li>
+<li>Microsoft Powerpoint</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td colspan=5>
+<a href="resume.html.pdf" download>
+ <button class="btn"><i class="fa fa-download"></i> Download</button>
+</a>
+</center>
+</body>
+</html>

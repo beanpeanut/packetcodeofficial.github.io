@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my website</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body {   background-color: black;
+	font-family: "Montserrat", sans-serif
+ 	}
+h1 {
+  font-size: 80px;
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 150px;background: #222;}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+/* gallery */
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*social media*/
+
+
+.fa {
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+.fa-twitter {
+  background: #0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #0000;
+  color: white;
+}
+.fa-youtube {
+  background: #0000;
+  color: white;
+}
+.fa-facebook {
+  background: #0000;
+  color: white;
+}
+</style>
+</head>
+
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>MENU</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>  
+  <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/resume.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>RESUME</p>
+  <a href="#gallery" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-image w3-xxlarge"></i>
+    <p>GALLERIES</p>
+  </a>  
+<a href="#timetable" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-calendar w3-xxlarge"></i>
+    <p>TIME TABLE</p>
+  </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-address-book w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+    <a href="#down" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-cloud-download w3-xxlarge"></i>
+    <p>DOWNLOAD</p>
+  </a>
+    <a href="#link" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-link w3-xxlarge"></i>
+    <p>LINK</p>
+  </a>
+   <a href=file:///C:/Users/Asus/OneDrive/Documents/web%20design/login%20real.html# class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>LOG OUT</p>
+  </a>
+  </nav>
+<!--END NAV SECTION-->
+
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+
+<!-- HOME -->
+<table border="0" width="1200" height="680" align="center" background="Background N°15.jpg" background-repeat: "no-repeat">
+<tr>
+<td></td>
+<td><img src="logo.png" alt="logo" width="50" height="80"></td>
+</tr>
+<tr>
+<td colspan=10>
+<center><h1>WARM WELCOME TO MY PERSONAL WEBSITE</h1></center></td>
+<td></td></tr>
+</table>
+<!--END HOME SECTION-->
+  
+
+<!-- ABOUT SECTION -->
+<div class="w3-padding-large" id="about">
+<img src="me.png" alt="Avatar" style="width:150px;" class="w3-circle w3-right w3-margin">
+<div class="w3-container">
+<h1> HELLO ! <br> IM FARAH AFIQAH </h1>
+ <div class="w3-section w3-bottombar w3-padding-40">
+<p>
+ A second-year computer science netcentric student in UITM Shah Alam. <br>
+Im a youngest in my family with a big age gap with the older one and an aunty to my beloved niece, Sumayyah <br>
+Type of person that enjoy mint choco, korean drama and sleep. A realist who wears her heart on his sleeve.<br>
+Someone who love to romanticize her simple life by enjoying every small things in her daily basis. <br>
+</p> 
+</div>
+<!--END ABOUT SECTION-->
+
+
+<!-- MUSIC Section -->
+<div class="w3-padding-64 w3-content" id="about">
+<h3 class="w3-text-light-grey">KNOW ME BETTER</h3>
+<hr style="width:100px" class="w3-opacity"> 
+<p>my musical choices </p>
+<img src="antihero.jpg" alt="antihero" width="300" height="333">
+<img src="biltb.jpg" alt="biltb" width="300" height="333">
+<img src="first.jpg" alt="first" width="300" height="333">
+<br>
+<audio controls>
+  <source src="antiheroaudio.mp3" type="audio/mp3"> 
+</audio>
+<audio controls> 
+<source src="biltbaudio.mp3" type="audio/mp3"><br>
+</audio>
+<audio controls> 
+<source src="first grade audio.mp3" type="audio/mp3"><br>
+</audio>
+<img src="zombie.jpg" alt="zombie" width="300" height="333">
+<img src="ditto.jpg" alt="ditto" width="300" height="333">
+<img src="seattle.jpg" alt="seattle" width="300" height="333"><br>
+<audio controls>
+  <source src="zombie audio.mp3" type="audio/mp3"> 
+</audio>
+<audio controls> 
+<source src="dittoaudio.mp3" type="audio/mp3"><br>
+</audio>
+<audio controls> 
+<source src="seattle audio.mp3" type="audio/mp3"><br>
+</audio>
+</div>
+<!--END MUSIC SECTION-->
+
+
+<!--GALLERIES-->
+  <!-- PHOTOS SECTION -->
+  <div class="w3-padding-64 w3-content" id="gallery">
+  <h2 class="w3-text-light-grey">MY PHOTOS</h2>
+
+  <hr style="width:200px" class="w3-opacity">
+	<!-- Grid for photos -->
+	<div class="row">
+      <div class="column">
+	<img src="pic1.jpg" style="width:70%">
+	<img src="pic2.jpg" style="width:70%"> 
+	<img src="pic3.jpg" style="width:70%">
+	<img src="pic4.jpg" style="width:70%"> </div>
+ 	<div class="column">
+	<img src="pic5.jpg" style="width:70%">
+	<img src="pic6.jpg" style="width:70%">
+	<img src="pic7.jpg" style="width:70%">
+	<img src="pic8.jpg" style="width:70%"></div>
+ 	<div class="column">
+	<img src="pic9.jpg" style="width:70%">
+	<img src="pic10.jpg" style="width:70%">
+	<img src="pic11.jpg" style="width:70%">
+	<img src="pic12.jpg" style="width:70%"> </div>
+  </div>
+  <!--END PHOTO SECTION-->
+
+  <!-- VIDEOS SECTION -->
+   <div class="w3-padding-64 w3-content" id="gallery">
+   <h2 class="w3-text-light-grey">MY VIDEOS</h2>
+   <hr style="width:200px" class="w3-opacity"> </div>
+
+	<video width="400" controls>
+	<source src="vid1.mp4" type="video/mp4">
+	</video>
+	<video width="400" controls>
+  	<source src="vid2.mp4" type="video/mp4">
+	</video>
+	<video width="400" controls>
+	<source src="vid3.mp4" type="video/mp4">
+	</video>
+	<video width="400" controls>
+ 	 <source src="vid4.mp4" type="video/mp4">
+	</video>
+	<video width="400" controls>
+  	<source src="vid5.mp4" type="video/mp4">
+	</video>
+  </div>
+<!-- VIDEOS SECTION -->
+<!--END GALLERIES SECTION-->
+
+<!-- TIME TABLE-->
+
+	<div class="w3-padding-64 w3-content" id="timetable">
+	<h2 class="w3-text-light-grey">CSC2512A TIME TABLE</h2>
+	<hr style="width:200px" class="w3-opacity"> </div>
+
+<table style="background-color:#000000;"border="1" cellspacing="3" align="center">
+  <tr>
+	<td align="center">
+	<td><center>8:00-9:00</td></center>
+	<td><center>9:00-10:00</td></center>
+	<td><center>10:00-11:00</td></center>
+	<td><center>11:00-12:00</td></center>
+	<td><center>12:00-2:00</td></center>
+	<td><center>2:00-3:00</td></center>
+	<td><center>3:00-4:00</td></center>
+	<td><center>4:00-5:00</td></center>
+	<td><center>5:00-6:00</td></center>
+	<td><center>6:00-7:00</td></center>
+	<td><center>7:00-8:00</td></center>
+  </tr>
+
+  <tr>
+	<td align="center">MONDAY
+	<td colspan="2" align="center">
+	<td colspan="2" align="center" bgcolor= "salmon"><font color="black">
+		<a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/ict.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%			20design/ict.html','ict','width=300,height=400')">ICT 450</a>
+ 	<td rowspan="5"align="center" bgcolor="Maroon"><font color ="white">L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>E<br>A<br>K
+ 	<td colspan=2" align="center">
+	<td colspan="2" align="center" bgcolor="LightPink"><font color="black">  <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/MAT406.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/MAT406.html','MAT','width=300,height=400')">MAT 421</a>
+	<td colspan="2" align="center"> 
+  </tr>
+
+  <tr>
+	<td align="center">TUESDAY
+	<td colspan="2" align="center" bgcolor="LightYellow"><font color="black"><a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC574.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC574.html','ict','width=300,height=400')">CSC 574</a>
+	<td colspan="2" align="center" bgcolor="Thistle"><font color="black"><a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/csc520.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/csc520.html','520','width=300,height=400')">CSC 520</a>
+	<td colspan=2" align="center">
+	<td colspan="2" align="center" bgcolor="salmon"><font color="black"><a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/ict.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/ict.html','ict','width=300,height=400')">ICT 450</a>
+  </tr>
+
+  <tr>
+	<td align="center">WEDNESDAY
+	<td colspan="2" align="center"bgcolor="LightYellow"><font color="black"><a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC574.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC574.html','ict','width=300,height=400')">CSC 574</a>
+	<td colspan="2" align="center" bgcolor="LightGreen"><font color="black"> <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC404.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC404.html','404','width=300,height=400')">CSC 404</a>
+	<td colspan="2" align="center"bgcolor="Thistle"><font color="black"> <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/csc520.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/csc520.html','520','width=300,height=400')">CSC 520</a>
+  </tr>
+
+  <tr>
+	<td align="center">THURSDAY
+	<td colspan="2" align="center" bgcolor="LightPink"><font color="black"><a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/MAT406.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/MAT406.html','MAT','width=300,height=400')">MAT 421</a>
+	<td colspan=2" align="center">
+ 	<td colspan="2" align="center"bgcolor="PaleTurquoise"><font color="black"><a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/STA%20416.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/STA%20416.html','STA','width=300,height=400')">STA 416</a>
+	<td colspan="1" align="center">
+	<td colspan="3" align="center" bgcolor="RosyBrown"><font color="black">HPD 136A
+  </tr>
+
+  <tr>
+	<td align="center">FRIDAY
+	<td colspan="2" align="center"bgcolor="LightGreen"><font color="black"> <a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC404.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/CSC404.html','404','width=300,height=400')">CSC 404</a>
+	<td colspan="2" align="center" bgcolor="PaleTurquoise"><font color="black"><a href="file:///C:/Users/Asus/OneDrive/Documents/web%20design/STA%20416.html" target="popup" onclick="window.open('file:///C:/Users/Asus/OneDrive/Documents/web%20design/STA%20416.html','STA','width=300,height=400')">STA 416</a>
+	<td colspan="6" align="center">
+  </tr>
+
+</table>
+<!-- End time table -->
+
+<!--CONTACT-->
+ <div class="w3-padding-64 w3-content" id="contact">
+    <h2 class="w3-text-light-grey">GET IN TOUCH</h2>
+    <hr style="width:200px" class="w3-opacity"> 
+
+<br><br><a href="https://twitter.com/home" class="fa fa-twitter" target="_blank"></a>
+<a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram" style="margin-left: 100px" target="_blank"></a>
+<a href="https://www.facebook.com/" class="fa fa-facebook" style="margin-left: 100px" target="_blank"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube" style="margin-left: 100px" target="_blank"></a>
+
+</div>
+<!--END PAGE CONTACT-->
+
+<!--DOWNLOAD-->
+ <div class="w3-padding-64 w3-content" id="down">
+    <h2 class="w3-text-light-grey">DOWNLOAD</h2>
+    <hr style="width:200px" class="w3-opacity"> 
+<p>please click the icon to download !</p>
+<p>RESUME
+
+<a href="resume.html.pdf" download>
+  <i class="fa fa-envelope w3-xxlarge"></i>
+</a><br>
+TIME TABLE
+<a href="time table.pdf" download>
+   <i class="fa fa-calendar w3-xxlarge"></i></a></P>
+</div>
+<!--END PAGE DOWNLOAD-->
+
+<!--LINK-->
+ <div class="w3-padding-64 w3-content" id="link">
+    <h2 class="w3-text-light-grey">LINK</h2>
+    <hr style="width:200px" class="w3-opacity"> 
+
+<ul>
+<li><a href="https://uitm.edu.my/index.php/en/" target="_blank">UITM WEBSITE</a></li>
+<li><a href="https://fskm.uitm.edu.my/v5/index.php/ms/" target="_blank">FSKM WEBSITE</a></li>
+<li><a href="https://istudent.uitm.edu.my/index_isp.htm" target="_blank">i- student portal</a></li>
+</ul>
+
+<!-- END PAGE CONTENT -->
+</div>
+<foot>
+<center><p>© 2023 farah afiqah</p><center>
+</foot>
+</body>
+</html>
+

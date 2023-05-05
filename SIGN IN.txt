@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+table.center{
+  margin-left: auto;
+  margin-right: auto;}
+ p {text-align: center;}
+ body{
+   background-color: tan;}
+ form  { background-color: cornsilk;}
+  
+
+</style>
+</head>
+
+<body>
+
+
+<form action="/action_page.php">
+<table class="center"> 
+<form action="/action_page.php"> 
+ <tr> <br>
+  <td><label for="name">Name: </label></td> 
+     <td> <input type= "text" id="name" name="name" placeholder="your name"</td> 
+ </tr> 
+ <tr> 
+   <td><label for="email">Email: </label></td> 
+   <td><input type="text" id="email" name="email" placeholder="your email"<br></td> 
+ </tr> 
+ <tr> 
+  <td> <label for="password">Password: </label></td> 
+  <td><input type="password" id="password" name="password"></td> 
+ </tr> 
+ <tr> 
+  <td> <label for= "phone">Phone Number: </label></td> 
+  <td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" requires></td> 
+ </tr> 
+ <tr> 
+  <td><label for="gender">Gender: </label></td> 
+  <td><label for="male">Male: </label> 
+  <input type="radio" id="male" name="gender" value="male"> 
+  <label for="female">Female: </label> 
+  <input type="radio" id="female" name="gender" value="female"> 
+  <label for="other"> Other: </label> 
+  <input type="radio" id="other" name="gender" value="other"></td> 
+ </tr> 
+ <tr> 
+  <td><label for="language">language </label></td> 
+  <td><select id="language" name="language"> 
+    <option value="select">Select language</option> 
+    <option value="malay">Malay</option> 
+ <option value="eng">English</option> 
+ <option value="mandarin">Mandarim</option> 
+</select></td> 
+</tr> 
+<tr> 
+  <td><label for="zCode">Zip Code: </label></td>
+  <td><input type="text" id="zCode" name="zCode"</td>
+</tr>
+<tr>
+  <td><label for="about">About: </label></td>
+  <td><textarea id="about" name="about" rows="4" cols="30" placeholder="write about yourself..."></textarea></td>
+ </tr>
+ </table>
+ <p>
+  <input type="submit" id="submit" value="Register" style="height:50px; width:400px"><br><br><br>
+</p>
+</form> 
+
+
+</body>
+</html>

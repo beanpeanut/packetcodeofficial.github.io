@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> CSC574 </title>
+</head>
+
+<body style="background-color:LightYellow;">
+    <h1> MAT421 </h1>
+  
+     
+ <p style="font-family:courier;"> COURSE CODE: <b> CSC574 </b> <br>
+COURSE NAME: <b> WEB DESIGN </b> <br>
+LECTURER: <b> NUR AINA KHADIJAH BINTI ADNAN </b> <br>
+PLACE: <b> CCNA LAB MK17 </b> <br>
+TIME: <b> 8AM- 9AM </b>(TUESDAY & WEDNESDAY)
+   
+    </p>
+ </body>
+</html>
